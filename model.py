@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '../src')
+--sys.path.insert(0, '../src')
 import uvicorn
 from fastapi import FastAPI 
 #from sklearn.externals 
@@ -20,7 +20,7 @@ app = FastAPI()
 
 
 # Prérequis API (data + model + fonction de prédiction)
-X = pd.read_csv("data_test.csv", index_col='SK_ID_CURR', encoding ='utf-8')
+X = pd.read_csv("datas/data_test.csv", index_col='SK_ID_CURR', encoding ='utf-8')
 
 def load_model():
         '''loading the trained model'''
