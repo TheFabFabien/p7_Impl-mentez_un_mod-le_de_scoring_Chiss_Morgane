@@ -12,5 +12,5 @@ streamlit_echarts
 #enum
 requests
 requests-oauthlib
-shapely
+shap
 streamlit
